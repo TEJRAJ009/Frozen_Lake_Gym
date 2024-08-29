@@ -53,7 +53,7 @@ To run this project locally, you need to have Python and the required libraries 
 
 1. **Clone this repository**:
     \`\`\`bash
-    git clone https://github.com/your-username/reinforcement-learning-frozenlake.git
+    git clone [https://github.com/your-username/reinforcement-learning-frozenlake.git](https://github.com/TEJRAJ009/Frozen_Lake_Gym.git)
     cd reinforcement-learning-frozenlake
     \`\`\`
 
