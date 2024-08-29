@@ -20,9 +20,8 @@ In this project, we:
 
 Q-learning is a model-free reinforcement learning algorithm that seeks to learn the value of a given action in a particular state. The algorithm updates its Q-values based on the Bellman equation:
 
-\[
-Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]
-\]
+![image](https://github.com/user-attachments/assets/6fde6f92-a0b7-4921-819a-16f52d7135c5)
+
 
 Where:
 - \(s\) is the current state
@@ -48,7 +47,7 @@ This project can be run on **Google Colab**, which provides free access to GPUs 
 2. Run all cells to start training the Q-learning agent.
 3. Follow the instructions in the notebook to visualize the training process and the results.
 
-### Running Locally
+### Running Locally (It's a Pain if you Have Windows)
 
 To run this project locally, you need to have Python and the required libraries installed.
 
@@ -60,7 +59,10 @@ To run this project locally, you need to have Python and the required libraries 
 
 2. **Install dependencies**:
     \`\`\`bash
-    pip install -r requirements.txt
+    pip install apt install xvfb
+    pip install gym[atari]
+    pip install gym-notebook-wrapper
+    pip install atari-py
     \`\`\`
 
 3. **Run the Jupyter Notebook**:
@@ -85,7 +87,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - OpenAI Gym for providing the FrozenLake environment.
 - Google Colab for enabling cloud-based computation.
 """
-
-# Saving the README content to a markdown file
-with open("/mnt/data/README.md", "w") as file:
-    file.write(readme_content)
