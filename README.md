@@ -4,7 +4,7 @@ This project demonstrates the implementation of **Q-learning**, a popular reinfo
 
 ## Overview
 
-In this project, we:
+In this project, I:
 - Implemented Q-learning from scratch.
 - Tuned hyperparameters such as learning rate, discount factor, and exploration rate.
 - Trained an agent to solve the FrozenLake environment.
