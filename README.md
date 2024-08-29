@@ -1,4 +1,4 @@
-# Reinforcement Learning with Q-learning on FrozenLake ❄️
+# Reinforcement Learning with Q-learning on FrozenLake ❄️ https://colab.research.google.com/github/TEJRAJ009/Frozen_Lake_Gym/blob/main/Reinforcement_with_OpenAI_Gym.ipynb
 
 This project demonstrates the implementation of **Q-learning**, a popular reinforcement learning algorithm, on the **FrozenLake** environment provided by OpenAI Gym. The goal is to help an agent learn an optimal policy to navigate a frozen lake and reach a goal without falling into holes.
 
